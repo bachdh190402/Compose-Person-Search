@@ -1,0 +1,8 @@
+/* Minimal global utilities */
+html {
+  scroll-behavior: smooth;
+}
+
+.invert {
+  filter: invert(1);
+}
