@@ -1,0 +1,89 @@
+2026-03-24 14:48:32,418 - INFO - Starting CITPS server on 127.0.0.1:8001  (device=cpu)
+2026-03-24 14:48:32,433 - DEBUG - Using proactor: IocpProactor
+2026-03-24 14:48:32,512 - INFO - Loading compose engine on startup (device=cpu)...
+2026-03-24 14:48:32,512 - INFO - Loading compose model (blip2_fafa_cpr) on cpu ...
+2026-03-24 14:48:32,535 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2026-03-24 14:48:32,962 - DEBUG - https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2026-03-24 14:48:59,826 - INFO - Freeze vision encoder
+2026-03-24 14:49:00,572 - DEBUG - https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/11" 200 0
+2026-03-24 14:49:02,742 - DEBUG - https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/generation_config.json HTTP/11" 404 0
+2026-03-24 14:49:07,508 - INFO - load checkpoint from https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained.pth
+2026-03-24 14:49:08,672 - INFO - Loading checkpoint: G:\DATN\CITPS\FAFA_SynCPR\models\tuned_recall_at1_step.pt
+2026-03-24 14:49:17,901 - INFO - Loading gallery features: G:\DATN\CITPS\FAFA_SynCPR\gallery_feats.pt
+2026-03-24 14:49:18,196 - INFO - Compose engine ready - gallery size: 2000
+2026-03-24 14:49:18,201 - INFO - Compose engine loaded successfully on cpu.
+2026-03-24 14:50:17,588 - DEBUG - Calling on_part_begin with no data
+2026-03-24 14:50:17,588 - DEBUG - Calling on_header_field with data[42:61]
+2026-03-24 14:50:17,588 - DEBUG - Calling on_header_value with data[63:113]
+2026-03-24 14:50:17,588 - DEBUG - Calling on_header_end with no data
+2026-03-24 14:50:17,588 - DEBUG - Calling on_header_field with data[115:127]
+2026-03-24 14:50:17,588 - DEBUG - Calling on_header_value with data[129:138]
+2026-03-24 14:50:17,588 - DEBUG - Calling on_header_end with no data
+2026-03-24 14:50:17,588 - DEBUG - Calling on_headers_finished with no data
+2026-03-24 14:50:17,607 - DEBUG - Calling on_part_data with data[142:130267]
+2026-03-24 14:50:17,610 - DEBUG - Calling on_part_data with data[0:67947]
+2026-03-24 14:50:17,610 - DEBUG - Calling on_part_end with no data
+2026-03-24 14:50:17,610 - DEBUG - Calling on_end with no data
+2026-03-24 14:50:17,672 - INFO - Compose search request: top_k=10, query_text='a women like in this image but wearing pink upper body clothing and black pant'
+2026-03-24 14:50:17,937 - DEBUG - STREAM b'IHDR' 16 13
+2026-03-24 14:50:17,939 - DEBUG - STREAM b'IDAT' 41 65536
+2026-03-24 14:50:23,568 - INFO - Processing time: 5.8956s
+2026-03-24 14:50:23,678 - DEBUG - IMG /images/TamChuc_01/02217_1.jpg  Referer: http://localhost:5173/
+2026-03-24 14:50:23,706 - DEBUG - IMG /images/TamChuc_01/02001_2.jpg  Referer: http://localhost:5173/
+2026-03-24 14:50:23,707 - DEBUG - IMG /images/TamChuc_01/02626_2.jpg  Referer: http://localhost:5173/
+2026-03-24 14:50:23,711 - DEBUG - IMG /images/TamChuc_01/02013_2.jpg  Referer: http://localhost:5173/
+2026-03-24 14:50:23,720 - DEBUG - IMG /images/TamChuc_01/02426_1.jpg  Referer: http://localhost:5173/
+2026-03-24 14:50:23,722 - DEBUG - IMG /images/DANgoc_01/02919_2.jpg  Referer: http://localhost:5173/
+2026-03-24 14:50:24,027 - DEBUG - IMG /images/TamChuc_01/02630_2.jpg  Referer: http://localhost:5173/
+2026-03-24 14:50:24,034 - DEBUG - IMG /images/TamChuc_01/02204_2.jpg  Referer: http://localhost:5173/
+2026-03-24 14:50:24,041 - DEBUG - IMG /images/DANgoc_01/02967_2.jpg  Referer: http://localhost:5173/
+2026-03-24 14:50:24,069 - DEBUG - IMG /images/TamChuc_01/02626_1.jpg  Referer: http://localhost:5173/
+2026-03-24 15:13:57,225 - INFO - Starting CITPS server on 127.0.0.1:8001  (device=cpu)
+2026-03-24 15:13:57,241 - DEBUG - Using proactor: IocpProactor
+2026-03-24 15:13:57,304 - INFO - Loading compose engine on startup (device=cpu)...
+2026-03-24 15:13:57,304 - INFO - Loading compose model (blip2_fafa_cpr) on cpu ...
+2026-03-24 15:13:57,315 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2026-03-24 15:14:00,740 - DEBUG - https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2026-03-24 15:14:29,175 - INFO - Freeze vision encoder
+2026-03-24 15:14:29,445 - DEBUG - https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/11" 200 0
+2026-03-24 15:14:32,823 - DEBUG - https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/generation_config.json HTTP/11" 404 0
+2026-03-24 15:14:37,917 - INFO - load checkpoint from https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained.pth
+2026-03-24 15:14:39,095 - INFO - Loading checkpoint: G:\DATN\CITPS\FAFA_SynCPR\models\tuned_recall_at1_step.pt
+2026-03-24 15:14:51,494 - INFO - Loading gallery features: G:\DATN\CITPS\FAFA_SynCPR\gallery_feats.pt
+2026-03-24 15:14:51,922 - INFO - Compose engine ready - gallery size: 2000
+2026-03-24 15:14:51,930 - INFO - Compose engine loaded successfully on cpu.
+2026-03-24 15:17:30,993 - INFO - New user registered: bachdh
+2026-03-24 15:17:39,946 - INFO - User signed in: bachdh
+2026-03-24 15:17:50,665 - INFO - User signed in: bachdh
+2026-03-24 15:19:58,874 - INFO - User signed in: bachdh
+2026-03-24 15:20:30,107 - DEBUG - Calling on_part_begin with no data
+2026-03-24 15:20:30,107 - DEBUG - Calling on_header_field with data[42:61]
+2026-03-24 15:20:30,124 - DEBUG - Calling on_header_value with data[63:113]
+2026-03-24 15:20:30,126 - DEBUG - Calling on_header_end with no data
+2026-03-24 15:20:30,127 - DEBUG - Calling on_header_field with data[115:127]
+2026-03-24 15:20:30,128 - DEBUG - Calling on_header_value with data[129:138]
+2026-03-24 15:20:30,129 - DEBUG - Calling on_header_end with no data
+2026-03-24 15:20:30,132 - DEBUG - Calling on_headers_finished with no data
+2026-03-24 15:20:30,139 - DEBUG - Calling on_part_data with data[142:131072]
+2026-03-24 15:20:30,141 - DEBUG - Calling on_part_data with data[0:67142]
+2026-03-24 15:20:30,141 - DEBUG - Calling on_part_end with no data
+2026-03-24 15:20:30,141 - DEBUG - Calling on_end with no data
+2026-03-24 15:20:30,243 - INFO - Compose search request: top_k=10, query_text='a women like in thí image but wearing pink upper-body clothing and black pant'
+2026-03-24 15:20:31,008 - DEBUG - STREAM b'IHDR' 16 13
+2026-03-24 15:20:31,009 - DEBUG - STREAM b'IDAT' 41 65536
+2026-03-24 15:20:51,083 - INFO - Processing time: 20.8405s
+2026-03-24 15:44:49,337 - INFO - Starting CITPS server on 127.0.0.1:8001  (device=cpu)
+2026-03-24 15:44:49,337 - DEBUG - Using proactor: IocpProactor
+2026-03-24 15:44:49,414 - INFO - Loading compose engine on startup (device=cpu)...
+2026-03-24 15:44:49,414 - INFO - Loading compose model (blip2_fafa_cpr) on cpu ...
+2026-03-24 15:44:49,428 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2026-03-24 15:44:49,817 - DEBUG - https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2026-03-24 15:45:33,520 - INFO - Freeze vision encoder
+2026-03-24 15:45:34,037 - DEBUG - https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/11" 200 0
+2026-03-24 15:45:37,011 - DEBUG - https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/generation_config.json HTTP/11" 404 0
+2026-03-24 15:45:42,177 - INFO - load checkpoint from https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained.pth
+2026-03-24 15:45:43,381 - INFO - Loading checkpoint: G:\Compose-Person-Search\CITPS\FAFA_SynCPR\models\tuned_recall_at1_step.pt
+2026-03-24 15:45:52,887 - INFO - Loading gallery features: G:\Compose-Person-Search\CITPS\FAFA_SynCPR\gallery_feats.pt
+2026-03-24 15:45:53,168 - INFO - Compose engine ready - gallery size: 2000
+2026-03-24 15:45:53,168 - INFO - Compose engine loaded successfully on cpu.
+2026-03-24 15:46:40,324 - INFO - User signed in: bachdh
