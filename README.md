@@ -168,3 +168,13 @@ Submit human evaluation labels for search results.
 
 Academic use only. The FAFA model and LAVIS library have their own licenses.
 
+## Citation
+@misc{liu2025automaticsyntheticdatafinegrained,
+      title={Automatic Synthetic Data and Fine-grained Adaptive Feature Alignment for Composed Person Retrieval}, 
+      author={Delong Liu and Haiwen Li and Zhaohui Hou and Zhicheng Zhao and Fei Su and Yuan Dong},
+      year={2025},
+      eprint={2311.16515},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2311.16515}, 
+}
