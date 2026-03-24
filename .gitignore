@@ -1,3 +1,4 @@
 CITPS/frontend/node_modules/
 *.pt
 .idea/
+/venv

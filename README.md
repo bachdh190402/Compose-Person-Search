@@ -59,21 +59,27 @@ All paths are configurable via **environment variables** (see `backend/config.py
 
 ## 🚀 Quick Start
 
-### 1. Install backend dependencies
+### 1. Virtual Environment Setup
+```bash
+python -m venv venv
+.\venv\Scripts\activate #activate on Windows
+source venv/bin/activate #activate on Linux/Mac
+````
+
+### 2. Install backend dependencies
 
 ```bash
-cd CITPS/backend
 pip install -r requirements.txt
 ```
 
-### 2. Install frontend dependencies
+### 3. Install frontend dependencies
 
 ```bash
 cd CITPS/frontend
 npm install
 ```
 
-### 3. Copy public assets
+### 4. Copy public assets
 
 Copy fonts and icons from the original project (or your own):
 
@@ -83,7 +89,7 @@ cp ai-image-match-demo/public/fonts/*.ttf  CITPS/frontend/public/fonts/
 cp ai-image-match-demo/public/vite.svg     CITPS/frontend/public/
 ```
 
-### 4. Start the backend
+### 5. Start the backend
 
 ```bash
 cd CITPS/backend
@@ -98,7 +104,7 @@ python main.py --device cpu
 python main.py --device cuda
 ```
 
-### 5. Start the frontend
+### 6. Start the frontend
 
 ```bash
 cd CITPS/frontend
