@@ -2,3 +2,4 @@ CITPS/frontend/node_modules/
 *.pt
 .idea/
 /venv
+__pycache__/
