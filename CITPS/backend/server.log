@@ -87,3 +87,34 @@
 2026-03-24 15:45:53,168 - INFO - Compose engine ready - gallery size: 2000
 2026-03-24 15:45:53,168 - INFO - Compose engine loaded successfully on cpu.
 2026-03-24 15:46:40,324 - INFO - User signed in: bachdh
+2026-03-24 21:29:12,203 - INFO - Starting CITPS server on 127.0.0.1:8001  (device=cpu)
+2026-03-24 21:29:12,222 - DEBUG - Using proactor: IocpProactor
+2026-03-24 21:29:12,427 - INFO - Loading compose engine on startup (device=cpu)...
+2026-03-24 21:29:12,428 - INFO - Loading compose model (blip2_fafa_cpr) on cpu ...
+2026-03-24 21:29:12,476 - DEBUG - Starting new HTTPS connection (1): huggingface.co:443
+2026-03-24 21:29:12,887 - DEBUG - https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/tokenizer_config.json HTTP/11" 200 0
+2026-03-24 21:30:08,647 - INFO - Freeze vision encoder
+2026-03-24 21:30:09,230 - DEBUG - https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/config.json HTTP/11" 200 0
+2026-03-24 21:30:13,393 - DEBUG - https://huggingface.co:443 "HEAD /bert-base-uncased/resolve/main/generation_config.json HTTP/11" 404 0
+2026-03-24 21:30:20,016 - INFO - load checkpoint from https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/blip2_pretrained.pth
+2026-03-24 21:30:21,442 - INFO - Loading checkpoint: G:\Compose-Person-Search\CITPS\FAFA_SynCPR\models\tuned_recall_at1_step.pt
+2026-03-24 21:30:32,794 - INFO - Loading gallery features: G:\Compose-Person-Search\CITPS\FAFA_SynCPR\gallery_feats.pt
+2026-03-24 21:30:33,110 - INFO - Compose engine ready - gallery size: 2000
+2026-03-24 21:30:33,110 - INFO - Compose engine loaded successfully on cpu.
+2026-03-24 21:31:52,901 - DEBUG - Calling on_part_begin with no data
+2026-03-24 21:31:52,906 - DEBUG - Calling on_header_field with data[42:61]
+2026-03-24 21:31:52,907 - DEBUG - Calling on_header_value with data[63:113]
+2026-03-24 21:31:52,907 - DEBUG - Calling on_header_end with no data
+2026-03-24 21:31:52,909 - DEBUG - Calling on_header_field with data[115:127]
+2026-03-24 21:31:52,909 - DEBUG - Calling on_header_value with data[129:138]
+2026-03-24 21:31:52,909 - DEBUG - Calling on_header_end with no data
+2026-03-24 21:31:52,909 - DEBUG - Calling on_headers_finished with no data
+2026-03-24 21:31:52,914 - DEBUG - Calling on_part_data with data[142:130281]
+2026-03-24 21:31:52,919 - DEBUG - Calling on_part_data with data[0:67933]
+2026-03-24 21:31:52,922 - DEBUG - Calling on_part_end with no data
+2026-03-24 21:31:52,922 - DEBUG - Calling on_end with no data
+2026-03-24 21:31:52,971 - INFO - Compose search request: top_k=10, query_text='a women like in this image but wearing pink upper and black pant'
+2026-03-24 21:31:53,193 - DEBUG - STREAM b'IHDR' 16 13
+2026-03-24 21:31:53,204 - DEBUG - STREAM b'IDAT' 41 65536
+2026-03-24 21:32:02,035 - INFO - Processing time: 9.0641s
+2026-03-24 21:32:05,280 - DEBUG - IMG /images/TamChuc_01/02447_1.jpg  Referer: http://localhost:5173/
